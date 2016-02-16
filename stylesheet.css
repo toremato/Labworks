@@ -1,0 +1,93 @@
+/*Torekhan Maratov*/
+body {font-family: /*'Open Sans'*/'Verdana', 'Geneva', sans-serif;
+	/*letter-spacing: 0.5px;*/
+	background-color: #f3f6f6;
+}
+#container{ /*this was used to change background color of whole picture 
+				(main div around whole code)
+				but later was replaced by body's background color 
+				as given picture is a part of screenshot*/
+	/*margin: 0 auto;*/
+	width: 600px;
+	background-color: #eff2f5;
+	padding: 1px;
+}
+.card{
+	width: 565px;
+	height: 115px;
+	border: 1px solid blue;
+	margin: 5px;
+	padding: 5px;
+	border-radius: 5px;
+}
+.image{
+	/*display: inline-block;*/
+	margin-right: 10px;
+	float: left;
+}	
+.description{
+	padding: 3px;
+
+}
+.link{
+	color: #5555aa;
+	font-size: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	border: none;
+}
+.link:hover{
+	color:red;
+}
+.user_info{
+	border-radius: 5px;
+	height: 25px;
+	background-color: #ffddff;
+	font-size: 11px;
+	margin-top: 0px;
+	letter-spacing: -1px;
+	clear:both;
+	/*letter-spacing: 1px;*/
+	-moz-text-decoration-style: dotted /*this piece of code works only on 6.0 Mozilla Fiefox(at least I hope so)*/
+}
+.left{
+	line-height: 25px;
+	width:49%;
+	float:left;
+	position: relative;
+	left: 10px;
+}
+.right{
+	line-height: 25px;
+	width:49%;
+	float:right;
+}
+img{
+	width: 150px;
+}
+.attribute_block{
+	padding:inherit;
+
+}
+.attribute{
+	padding:inherit;
+	font-weight: bolder;
+}
+.price{
+	color: #fff;
+	background-color: #aaaaff;
+	border-radius: 5px;
+	padding: 7px;
+	font-size: 19px;
+	letter-spacing: 0.5px;
+}
+.mileage{
+	font-size: 18px;
+}
+a{
+	color: #9090f9;
+	font-size: 14px;
+	letter-spacing: 0px;
+	border-bottom: 2px dotted;
+	text-decoration: none;
+}
