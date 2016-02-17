@@ -1,0 +1,45 @@
+#a{
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	position: relative;
+	z-index: 10;
+	left: 500px;
+	top: 200px;
+}
+#b{
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+	position: absolute;
+	z-index:15;
+	left: 200px ;
+	top: 300px;
+}
+#c{
+	width: 100px; 
+	height: 100px;
+	background-color: cyan ;
+	position: absolute;
+	z-index: 3;
+	left: 500px;
+	top: 200px;
+}
+#d{
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	position: absolute;
+	z-index:2;
+	left: 150px;
+	top: 250px;
+}
+#e{
+	width: 100px;
+	height: 100px;
+	background-color: orange;
+	position: absolute;
+	z-index:1;
+	left: 300px;
+	top: 400px;
+}
